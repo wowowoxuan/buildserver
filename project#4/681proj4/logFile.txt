@@ -1,0 +1,23 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon Dec  4 20:02:42 2017
+     Path: "C:\Users\Weiheng\Desktop\proj4\681proj3"
+     Args: 681proj4.sln, /v, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched   161 dirs
+   processed     1 files

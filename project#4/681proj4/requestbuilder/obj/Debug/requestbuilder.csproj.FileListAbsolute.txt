@@ -1,0 +1,14 @@
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\obj\Debug\requestbuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\obj\Debug\requestbuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\obj\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.dll.config
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\681proj3\requestbuilder\obj\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\bin\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\obj\Debug\requestbuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\obj\Debug\requestbuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\obj\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\requestbuilder\obj\Debug\SMA-ProjectTemplate1.pdb

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testRequest>
+  <author>Weiheng Chai</author>
+  <dateTime>2017/11/26 21:04:36</dateTime>
+  <test>
+    <testDriver>App.xaml.cs</testDriver>
+    <tested>App.xaml.cs</tested>
+    <tested>CodePopUp.xaml.cs</tested>
+    <tested>MainWindow.xaml</tested>
+  </test>
+</testRequest>

@@ -1,0 +1,16 @@
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilderstorage\dll\Test3.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilderstorage\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilderstorage\obj\Debug\Test3.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilderstorage\obj\Debug\Test3.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj4\ChildBuilderstorage\dll\Test3.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj4\ChildBuilderstorage\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj4\ChildBuilderstorage\obj\Debug\Test3.dll
+C:\Users\Weiheng\Desktop\proj4\681proj4\ChildBuilderstorage\obj\Debug\Test3.pdb
+E:\project#4\681proj4\project#4\project#4\681proj4\ChildBuilderstorage\dll\Test3.dll.config
+E:\project#4\681proj4\project#4\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+E:\project#4\681proj4\project#4\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.dll
+E:\project#4\681proj4\project#4\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\dll\Test3.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.pdb

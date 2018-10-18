@@ -1,0 +1,5 @@
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\test3.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\dll\test3.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\dll\test3.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\test3.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\test3.pdb

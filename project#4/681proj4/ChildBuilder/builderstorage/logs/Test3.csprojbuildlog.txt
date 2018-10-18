@@ -1,0 +1,427 @@
+Build started 2017/12/6 22:49:15.
+Overriding target "GetFrameworkPaths" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "GetFrameworkPaths" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
+__________________________________________________
+Project "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\Test3.csproj" (Rebuild target(s)):
+
+Building with tools version "15.0".
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Target _CheckForInvalidConfigurationAndPlatform:
+  Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+  Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+  Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "Message"
+    Configuration=Debug
+  Done executing task "Message".
+  Task "Message"
+    Platform=AnyCPU
+  Done executing task "Message".
+  Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('dll\' != '' and !HasTrailingSlash('dll\')).
+  Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+  Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Target BeforeRebuild:
+Target BeforeClean:
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\Test3.csproj.UnmanagedRegistration.cache')).
+Target CoreClean:
+  Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "Delete"
+  Done executing task "Delete".
+  Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "ReadLinesFromFile"
+  Done executing task "ReadLinesFromFile".
+  Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "FindUnderPath"
+    Comparison path is "dll\".
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "obj\Debug\".
+  Done executing task "FindUnderPath".
+  Task "Delete"
+    File "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\dll\Test3.dll.config" doesn't exist. Skipping.
+    Deleting file "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.csprojResolveAssemblyReference.cache".
+    Deleting file "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.dll".
+    Deleting file "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage\obj\Debug\Test3.pdb".
+  Done executing task "Delete".
+  Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "RemoveDuplicates"
+  Done executing task "RemoveDuplicates".
+  Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "MakeDir"
+  Done executing task "MakeDir".
+  Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "WriteLinesToFile"
+  Done executing task "WriteLinesToFile".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target _SplitProjectReferencesByFileExistence:
+  Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Target CleanReferencedProjects:
+  Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' != 'true' and 'true' == 'true' and '' != '').
+Target CleanPublishFolder:
+  Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('dll\app.publish\'=='dll\app.publish\' and Exists('dll\app.publish\')).
+Target AfterClean:
+Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target Clean:
+Target CleanXsdCodeGen:
+  Task "Delete"
+  Done executing task "Delete".
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target BeforeBuild:
+Target BuildOnlySettings:
+Target GetFrameworkPaths:
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target GetReferenceAssemblyPaths:
+  Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "GetReferenceAssemblyPaths"
+  Done executing task "GetReferenceAssemblyPaths".
+Target PrepareForBuild:
+  Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "FindAppConfigFile"
+    Found "App.config".
+  Done executing task "FindAppConfigFile".
+  Task "MakeDir"
+  Done executing task "MakeDir".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target BeforeResolveReferences:
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target ResolveProjectReferences:
+  Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+  Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+  Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+  Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+  Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target GetInstalledSDKLocations:
+  Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Target ResolveSDKReferences:
+  Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target ExpandSDKReferences:
+  Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Target ResolveAssemblyReferences:
+  Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "ResolveAssemblyReference"
+    TargetFrameworkMoniker:
+        .NETFramework,Version=v4.6.1
+    TargetFrameworkMonikerDisplayName:
+        .NET Framework 4.6.1
+    TargetedRuntimeVersion:
+        v4.0.30319
+    Assemblies:
+        System
+        System.Xml.Linq
+        System.Data.DataSetExtensions
+        Microsoft.CSharp
+        System.Data
+        System.Net.Http
+        System.Xml
+        System.Core
+    AssemblyFiles:
+        C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll
+    CandidateAssemblyFiles:
+    TargetFrameworkDirectories:
+        C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\
+    InstalledAssemblyTables:
+    IgnoreInstalledAssemblyTable:
+        False
+    SearchPaths:
+        {CandidateAssemblyFiles}
+        {HintPathFromItem}
+        {TargetFrameworkDirectory}
+        {Registry:Software\Microsoft\.NETFramework,v4.6.1,AssemblyFoldersEx}
+        {AssemblyFolders}
+        {GAC}
+        {RawFileName}
+        dll\
+    AllowedAssemblyExtensions:
+        .winmd
+        .dll
+        .exe
+    AllowedRelatedFileExtensions:
+        .pdb
+        .xml
+        .pri
+    AppConfigFile:
+        
+    AutoUnify:
+        True
+    CopyLocalDependenciesWhenParentReferenceInGac:
+        True
+    FindDependencies:
+        True
+    TargetProcessorArchitecture:
+        msil
+    StateFile:
+        obj\Debug\Test3.csprojResolveAssemblyReference.cache
+    InstalledAssemblySubsetTables:
+    IgnoreInstalledAssemblySubsetTable:
+        False
+    TargetFrameworkSubsets:
+    FullTargetFrameworkSubsetNames:
+        Full
+    ProfileName:
+        
+    FullFrameworkFolders:
+        C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\
+    LatestTargetFrameworkDirectories:
+    ProfileTablesLocation:
+    Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll".
+        Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll".
+        This reference is not "CopyLocal" because it's in a Frameworks directory.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.Linq.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.Linq.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.DataSetExtensions.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.DataSetExtensions.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.CSharp.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.CSharp.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Net.Http.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Net.Http.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+    Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.winmd", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+        The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Done executing task "ResolveAssemblyReference".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target AfterResolveReferences:
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target ImplicitlyExpandDesignTimeFacades:
+  Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{TargetFrameworkDirectory}' == 'ImplicitlyExpandDesignTimeFacades').
+  Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll' == 'ImplicitlyExpandDesignTimeFacades').
+Target ResolveReferences:
+Target ValidationExtension:
+  Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+Target ExpressionBuildExtension:
+  Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "AddDeferredValidationErrorsFileToFileWrites" skipped, due to false condition; (Exists('$(DeferredValidationErrorsFileName)')) was evaluated as (Exists('obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')).
+Target "ReportValidationBuildExtensionErrors" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+Target AfterMarkupCompilePass1:
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target FileClassification:
+  Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+  Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+  Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target AssignTargetPaths:
+  Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target SplitResourcesByCulture:
+  Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+  Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "AssignCulture"
+  Done executing task "AssignCulture".
+Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+Target CreateCustomManifestResourceNames:
+Target PrepareResourceNames:
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target BeforeResGen:
+Target CoreResGen:
+  Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' != 'CLR2').
+  Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' == 'CLR2').
+Target AfterResGen:
+Target ResGen:
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target PrepareResources:
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target _SetEmbeddedWin32ManifestProperties:
+  Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "GetFrameworkPath"
+  Done executing task "GetFrameworkPath".
+Target SetWin32ManifestProperties:
+Target _GenerateCompileInputs:
+  Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+  Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target _SetTargetFrameworkMonikerAttribute:
+Target GenerateTargetFrameworkMonikerAttribute:
+  Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+  Input files: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+  Output files: C:\Users\Weiheng\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target BeforeCompile:
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target PreXsdCodeGen:
+  Using "CallTarget" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "CallTarget"
+    Target "CleanXsdCodeGen" skipped. Previously built successfully.
+  Done executing task "CallTarget".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target CoreCompile:
+  Building target "CoreCompile" completely.
+  Output file "obj\Debug\Test3.dll" does not exist.
+  Using "Csc" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "Csc"
+    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Test3.dll /subsystemversion:6.00 /target:library /utf8output tf3.cs testdriver3.cs "C:\Users\Weiheng\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs"
+    Microsoft (R) Visual C# Compiler version 4.7.2046.0
+    
+    for C# 5
+    Copyright (C) Microsoft Corporation. All rights reserved.
+    
+    
+    
+    This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+    
+  Done executing task "Csc".
+  Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target AfterCompile:
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target AfterCompileWinFX:
+Target _AfterCompileWinFXInternal:
+Target Compile:
+Target "DeferredValidation" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\Test3.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target _GenerateSatelliteAssemblyInputs:
+  Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+  Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target CreateSatelliteAssemblies:
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target GetTargetPath:
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target GetCopyToOutputDirectoryXamlAppDefs:
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+Target GetCopyToOutputDirectoryItems:
+  Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target _CopySourceItemsToOutputDirectory:
+Target _CopyAppConfigFile:
+  Building target "_CopyAppConfigFile" completely.
+  Input file "App.config" does not exist.
+  Using "Copy" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "Copy"
+    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(3746,5): error MSB3030: Could not copy the file "App.config" because it was not found.
+  Done executing task "Copy" -- FAILED.
+Done building target "_CopyAppConfigFile" in project "Test3.csproj" -- FAILED.
+Target _CheckForCompileOutputs:
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target _CleanGetCurrentAndPriorFileWrites:
+  Task "ReadLinesFromFile"
+  Done executing task "ReadLinesFromFile".
+  Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "ConvertToAbsolutePath"
+  Done executing task "ConvertToAbsolutePath".
+  Task "FindUnderPath"
+    Comparison path is "C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilderstorage".
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "dll\".
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "obj\Debug\".
+  Done executing task "FindUnderPath".
+  Task "RemoveDuplicates"
+  Done executing task "RemoveDuplicates".
+Target _CleanRecordFileWrites:
+  Task "RemoveDuplicates"
+  Done executing task "RemoveDuplicates".
+  Task "MakeDir"
+  Done executing task "MakeDir".
+  Task "WriteLinesToFile"
+  Done executing task "WriteLinesToFile".
+
+Done building project "Test3.csproj" -- FAILED.
+
+Build FAILED.
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(3746,5): error MSB3030: Could not copy the file "App.config" because it was not found.
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.14

@@ -1,0 +1,35 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon Dec  4 20:04:49 2017
+     Path: "C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder"
+     Args: childprocess.cs, /v, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      24
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           childprocess.cs   namespace                       Buildserver1      40     163      23
+           childprocess.cs       class                       ChildBuilder      42     161      22
+           childprocess.cs    function             ProcessCommandLineArgs      47       5       1
+           childprocess.cs    function                        BuildCsproj      53      45       5
+           childprocess.cs    function                         FileLogger      59       1       1
+           childprocess.cs    function                   BuildRequestData      62       1       1
+           childprocess.cs    function                        SendMessage      99      12       1
+           childprocess.cs    function                           getfiles     112      41       3
+           childprocess.cs    function                               Main     154      46       9
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched    24 dirs
+   processed     1 files

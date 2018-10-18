@@ -1,0 +1,25 @@
+
+  test failed, elapsed time = 538 microsecs
+ths:
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target GetReferenceAssemblyPaths:
+  Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "GetReferenceAssemblyPaths"
+  Done executing task "GetReferenceAssemblyPaths".
+Target PrepareForBuild:
+  Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+  Task "FindAppConfigFile"
+    Found "App.config".
+  Done executing task "FindAppConfigFile".
+  Task "MakeDir"
+  Done executing task "MakeDir".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluat
+  test failed, elapsed time = 398 microsecs
+ed as (''!='').
+Target BeforeResolveReferences:
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target ResolveProjectReferences:
+  Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+  Task "MSBuild

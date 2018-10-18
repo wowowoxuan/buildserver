@@ -1,0 +1,12 @@
+C:\Users\Weiheng\Desktop\proj4\681proj3\Tester\bin\Debug\Loader\Loader.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\Tester\bin\Debug\Loader\Loader.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\Loader\obj\Debug\Loader.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\Loader\obj\Debug\Loader.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\Loader\obj\Debug\Loader.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\Loader\obj\Debug\Loader.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\Tester\bin\Debug\Loader\Loader.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\Tester\bin\Debug\Loader\Loader.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\Loader\obj\Debug\Loader.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\Loader\obj\Debug\Loader.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\Loader\obj\Debug\Loader.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\Loader\obj\Debug\Loader.pdb

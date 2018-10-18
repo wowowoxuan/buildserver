@@ -1,0 +1,18 @@
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\obj\Debug\Environment1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\obj\Debug\Environment1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\obj\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\Environment1\obj\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\obj\Debug\Environment1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\obj\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\obj\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\Environment1\obj\Debug\Environment1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\obj\Debug\Environment1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\obj\Debug\Environment1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\obj\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\Environment1\obj\Debug\Environment1.pdb

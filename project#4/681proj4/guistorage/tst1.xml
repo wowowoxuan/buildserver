@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testRequest>
+  <author>Weiheng Chai</author>
+  <dateTime>2017/12/2 20:16:54</dateTime>
+  <csproj>Test3.csproj</csproj>
+  <test>
+    <testDriver></testDriver>
+    <tested>test1.xml</tested>
+    <tested>test2.xml</tested>
+  </test>
+</testRequest>

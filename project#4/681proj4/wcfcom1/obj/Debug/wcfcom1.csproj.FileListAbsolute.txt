@@ -1,0 +1,21 @@
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\obj\Debug\wcfcom1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\obj\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\obj\Debug\wcfcom1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\681proj3\wcfcom1\obj\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\obj\Debug\wcfcom1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\obj\Debug\wcfcom1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\obj\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\wcfcom1\obj\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\obj\Debug\wcfcom1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\obj\Debug\wcfcom1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\obj\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\wcfcom1\obj\Debug\wcfcom1.pdb

@@ -1,0 +1,55 @@
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\681proj3\repo\obj\Debug\repo.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\681proj3\repo\obj\Debug\repo.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\681proj3\repo\obj\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\repo.dll.config
+C:\Users\Weiheng\Desktop\681proj3\repo\bin\Debug\repo.dll
+C:\Users\Weiheng\Desktop\681proj3\repo\obj\Debug\repo.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\obj\Debug\repo.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\obj\Debug\repo.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\obj\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\FileMgr1.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\FileMgr1.exe.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\repo.exe.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\bin\Debug\repo.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\repo\obj\Debug\repo.exe
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\repo.exe.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\repo.exe
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\FileMgr1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\obj\Debug\repo.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\obj\Debug\repo.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\obj\Debug\repo.exe
+C:\Users\Weiheng\Desktop\proj4\681proj3\repo\obj\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\repo.exe.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\repo.exe
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\repo.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\FileMgr1.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\obj\Debug\repo.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\obj\Debug\repo.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\obj\Debug\repo.exe
+C:\Users\Weiheng\Desktop\project#4\681proj4\repo\obj\Debug\repo.pdb

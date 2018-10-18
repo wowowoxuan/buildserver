@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testRequest>
+  <author>Chai, Weiheng</author>
+  <dateTime>2017/10/4 20:40:26</dateTime>
+  <test>
+    <testDriver>test1.csproj</testDriver>
+    <tested>td1.cs</tested>
+    <tested>tf1.cs</tested>
+    <tested>tf2.cs</tested>
+  </test>
+</testRequest>

@@ -1,0 +1,42 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Wed Dec  6 22:39:14 2017
+     Path: "C:\Users\Weiheng\Desktop\project#4\681proj4\proj3gui"
+     Args: MainWindow.xaml.cs, /v, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      34
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        MainWindow.xaml.cs   namespace                           proj4gui      65     283      33
+        MainWindow.xaml.cs       class                         MainWindow      69     279      32
+        MainWindow.xaml.cs    function                         MainWindow      73      10       1
+        MainWindow.xaml.cs    function                               test      84      48       1
+        MainWindow.xaml.cs    function        initializeMessageDispatcher     132      47      12
+        MainWindow.xaml.cs    function                      rcvThreadProc     181      16       3
+        MainWindow.xaml.cs    function                             Invoke     193       1       1
+        MainWindow.xaml.cs    function                   initializebutton     199       5       1
+        MainWindow.xaml.cs    function                      repotop_Click     204      17       1
+        MainWindow.xaml.cs    function          repodirs_MouseDoubleClick     223      18       1
+        MainWindow.xaml.cs    function                        start_Click     242      16       1
+        MainWindow.xaml.cs    function                        build_Click     259      37       5
+        MainWindow.xaml.cs    function                         send_Click     296      18       2
+        MainWindow.xaml.cs    function               refreshrequest_Click     315      11       1
+        MainWindow.xaml.cs    function                  killprocess_Click     328      18       2
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        MainWindow.xaml.cs    function        initializeMessageDispatcher     132      47      12
+
+
+
+    searched     8 dirs
+   processed     1 files

@@ -1,0 +1,27 @@
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\bin\Debug\FileMgr1.exe.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\bin\Debug\FileMgr1.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\obj\Debug\FileMgr1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\obj\Debug\FileMgr1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\obj\Debug\FileMgr1.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\FileMgr1\obj\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\bin\Debug\FileMgr1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\bin\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\obj\Debug\FileMgr1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\obj\Debug\FileMgr1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\obj\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\FileMgr1\obj\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\bin\Debug\FileMgr1.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\bin\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\bin\Debug\FileMgr1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\obj\Debug\FileMgr1.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\obj\Debug\FileMgr1.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\obj\Debug\FileMgr1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\FileMgr1\obj\Debug\FileMgr1.pdb

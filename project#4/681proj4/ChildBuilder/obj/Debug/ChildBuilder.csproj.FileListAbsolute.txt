@@ -1,0 +1,50 @@
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe.config
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\obj\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\obj\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\obj\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\obj\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\obj\Debug\ChildBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\obj\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\proj4\681proj3\ChildBuilder\obj\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\ChildBuilder.exe.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\ChildBuilder.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\Environment1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\wcfcom1.dll
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\Environment1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\SMA-ProjectTemplate1.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\wcfcom1.pdb
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\bin\Debug\wcfcom1.dll.config
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\obj\Debug\ChildBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\obj\Debug\ChildBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\obj\Debug\ChildBuilder.exe
+C:\Users\Weiheng\Desktop\project#4\681proj4\ChildBuilder\obj\Debug\ChildBuilder.pdb

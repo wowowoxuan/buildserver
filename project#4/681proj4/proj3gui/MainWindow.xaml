@@ -1,0 +1,107 @@
+﻿<Window x:Class="proj4gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proj3gui"
+        mc:Ignorable="d"
+        Title="proj4 client" Height="1000" Width="1000">
+    <Window.Resources>
+        <!-- 
+    /////////////////////////////////////////////////////////////////////////
+    // NavigatorClient.xaml - Demonstrates Directory Navigation in WPF App //
+    // ver 2.0                                                             //
+    // Jim Fawcett, CSE681 - Software Modeling and Analysis, Fall 2017     //
+    /////////////////////////////////////////////////////////////////////////
+    -->
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="{x:Type TabItem}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+        <Style TargetType="{x:Type ListBox}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontWeight" Value="Medium" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Border Padding="10" Background="#ddd" BorderThickness="0 4 0 0" BorderBrush="DarkSlateBlue">
+            <TabControl Margin="-10,-4,10,4" >
+                <TabItem Name="Local" Header="GUI">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="5"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" Height="30" Orientation="Horizontal">
+                                <Label Height="30" x:Name="localFilesLabel" Foreground="DarkSlateBlue" FontWeight="bold">repository files</Label>
+                                <Label Width="10"></Label>
+                                <Button Name="repotop" Width="119" Height="25" Click="repotop_Click" Margin="0,2">get repo files</Button>
+                            </StackPanel>
+                            <ListBox Grid.Row="1" x:Name="repofiles" SelectionMode="Multiple"></ListBox>
+                        </Grid>
+                        <GridSplitter Grid.Row="1" Grid.ColumnSpan="3" Height="5" HorizontalAlignment="Stretch" Background="#ddd"></GridSplitter>
+                        <Grid Grid.Column="0" Grid.Row="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" Height="30" Orientation="Horizontal">
+                                <Label Height="30">repository dirs</Label>
+                                <Label Width="10"></Label>
+                            </StackPanel>
+                            <ListBox Grid.Row="1" Name="repodirs" MouseDoubleClick="repodirs_MouseDoubleClick" ></ListBox>
+                            <ListBox Grid.Row="1" Name="buildrequestlist" SelectionMode="Multiple" Margin="485,46,-354,55"  ></ListBox>
+                        </Grid>
+                        <Grid Grid.Column="2" Grid.Row="0">
+                            <Button x:Name="killprocess"  Height="25" Content="close" Click="killprocess_Click"  RenderTransformOrigin="0.5,0.64" Margin="420,105,10,324"/>
+                            <Label  RenderTransformOrigin="0.469,0.233" Content="click this button to refresh the request list&#xD;&#xA;select the build request you want to build here &#xD;&#xA;and click send build request to send build request" Margin="0,463,109,-78"/>
+
+                            <Label Height="30" RenderTransformOrigin="0.469,0.233" Content="input the name of the buildrequest" Margin="0,163,66,261"/>
+                            <Label RenderTransformOrigin="0.469,0.233" Content="Build build request&#xA;you can see the testcases A,B,C in the  repository dirs,&#xD;&#xA; double chilk one of it and the files will show in the repo &#xD;&#xA;files list box, select all of it and input the name of build &#xD;&#xA;request.Then click  the build button. and the build request &#xD;&#xA;will be build and send to the repository meet requirement &#xD;&#xA;4,10,12 and most of the 11.You can see the new build&#xD;&#xA; request in the buildrequest list box" Margin="0,199,81,79"/>
+                            <Label RenderTransformOrigin="0.498,0.433" Content="Click this button start the child builder&#xD;&#xA;&#xD;&#xA;Click this button to close the child builder" Margin="0,75,198,301"/>
+                            <Button x:Name="build" Height="25"  Content="build" Click="build_Click" RenderTransformOrigin="1.775,0.12" Margin="420,194,10,235"/>
+                            <Button x:Name="send" Height="25"  Content="send build request" Click="send_Click" RenderTransformOrigin="1.775,0.12" Margin="348,574,-11,-145"/>
+                            <Button x:Name="start" Height="25"  Content="start" Click="start_Click" RenderTransformOrigin="1.775,0.12" Margin="420,75,10,354"/>
+                            <TextBox Grid.Row="0" Height="26" Width="51" x:Name="number" Text="" RenderTransformOrigin="-6.3,-7.4" Margin="0,35,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" />
+                            <Label Height="30" RenderTransformOrigin="0.546,1.667" Content="Control pannel" Margin="10,0,40,424"/>
+                            <TextBox Grid.Row="0" Height="25" Width="51" x:Name="xmlname" Text="" RenderTransformOrigin="-6.3,-7.4" Margin="0,163,10,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                            <Label RenderTransformOrigin="0.546,1.667" Content="Input the number of process you want to start&#xA;" Margin="10,30,153,385"/>
+                        </Grid>
+                        <Button x:Name="refreshrequest" Click="refreshrequest_Click"  Height="25" RenderTransformOrigin="0.326,-2.76" Content="Refresh" Margin="376,10,10,418" Grid.Column="2" Grid.Row="2" />
+                    </Grid>
+                </TabItem>
+                <TextBlock Height="100" TextWrapping="Wrap" Text="TextBlock" Width="100"/>
+                <Label  RenderTransformOrigin="0.469,0.233" Content="click this button to refresh the request list&#xA;select the build request you want to build here &#xA;and click send build request to send build request" Height="136" Width="400"/>
+                <Label Content="Label" Height="100" Width="100"/>
+                <Label Content="Label" Height="100" Width="100"/>
+            </TabControl>
+        </Border>
+        <TextBlock x:Name="showpath" HorizontalAlignment="Left" Margin="533,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Height="82" Text="Here will show the Build Requests' save path and send path."/>
+        <Label Content="here meet the&#xD;&#xA; requirement 13&#xD;&#xA;When you select&#xD;&#xA;the the Build &#xD;&#xA;Request and click&#xD;&#xA;send build &#xD;&#xA;request, the &#xD;&#xA;repository will&#xD;&#xA;send the build&#xD;&#xA;request to &#xD;&#xA;Mother Builder&#xD;&#xA;" HorizontalAlignment="Left" Margin="856,662,0,0" VerticalAlignment="Top" Width="126" Height="270"/>
+        <Label Content="BuildRequest listbox" HorizontalAlignment="Left" Margin="558,903,0,0" VerticalAlignment="Top" Width="174"/>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\builderstorage\csproj_debug\Csproj.dll
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\builderstorage\csproj_debug\Csproj.pdb
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\builderstorage\obj\Debug\Csproj.dll
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\builderstorage\obj\Debug\Csproj.pdb
+C:\Users\Weiheng\Desktop\681proj3\ChildBuilder\builderstorage\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\csproj_debug\Csproj.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\csproj_debug\Csproj.pdb
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\Csproj.dll
+C:\Users\Weiheng\Desktop\New folder (50)\681proj3\ChildBuilder\builderstorage\obj\Debug\Csproj.pdb
